@@ -116,17 +116,29 @@ switch(userRole){
 
 
 // Guessing game
-const secretNumber = parseInt(7)
-let guessedNumber=prompt("Enter a number:")
+// const secretNumber = parseInt(7)
+// let guessedNumber=prompt("Enter a number:")
 
-while(Number(guessedNumber)!==secretNumber){
-    guessedNumber=prompt("Enter another number :")
+// while(Number(guessedNumber)!==secretNumber){
+//     guessedNumber=prompt("Enter another number :")
 
+// }
+
+// console.log("You guessed the correct number!!!")
+
+
+
+function Mycommand(){
+    console.log("Pick it up !!!")
 }
 
-console.log("You guessed the correct number!!!")
+Mycommand()
 
+const Myrequest = ()=>{
+    console.log("Please can you get me my phone")
+}
 
+Myrequest()
 
 
 
